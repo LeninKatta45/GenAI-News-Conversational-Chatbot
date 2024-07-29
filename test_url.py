@@ -1,8 +1,6 @@
-from langchain_community.document_loaders import UnstructuredURLLoader
-import pytest
+
 from main import url_access, chunk_access
-from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import GooglePalmEmbeddings
+
 
 t = []
 
