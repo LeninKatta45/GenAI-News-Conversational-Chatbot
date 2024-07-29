@@ -4,6 +4,8 @@ black
 streamlit
 langchain
 unstructured
+fastapi
+pydantic
 faiss-cpu
 dill
 langchain-google-genai
