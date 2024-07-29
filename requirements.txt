@@ -1,0 +1,9 @@
+pylint
+pytest
+black
+streamlit
+langchain
+unstructured
+faiss-cpu
+dill
+langchain-google-genai
