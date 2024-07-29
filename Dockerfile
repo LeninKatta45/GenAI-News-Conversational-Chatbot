@@ -1,4 +1,4 @@
-FROM public.ecr.aws/lambda/python:3.10.13
+FROM python:3.10-slim
 
 RUN mkdir -p /app
 COPY ./main.py /app/
