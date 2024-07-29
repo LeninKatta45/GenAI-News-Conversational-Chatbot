@@ -7,3 +7,5 @@ unstructured
 faiss-cpu
 dill
 langchain-google-genai
+ipython
+langchain-community
