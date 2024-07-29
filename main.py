@@ -1,6 +1,7 @@
 import os
 import time
 import dill
+import uvicorn
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
@@ -110,3 +111,5 @@ async def summarize(input: SummarizeInput):
     except Exception as e:
         return {"error": str(e)}
    
+if __name__ == '__main__':
+    uvicorn.run(app, port=8080, host='0.0.0.0')

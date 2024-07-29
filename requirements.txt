@@ -8,6 +8,7 @@ fastapi
 pydantic
 faiss-cpu
 dill
+uvicorn
 langchain-google-genai
 ipython
 langchain-community
