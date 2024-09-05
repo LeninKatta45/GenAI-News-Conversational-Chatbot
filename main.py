@@ -15,7 +15,6 @@ from langchain.chains import RetrievalQA
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 api_key = os.getenv("API_KEY")
-os.environ["GOOGLE_API_KEY"] = api_key
 loader=[]
 app = FastAPI()
 
