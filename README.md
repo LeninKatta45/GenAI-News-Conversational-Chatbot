@@ -18,7 +18,7 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/LeninKatta45/quantum-chat.git
+    git clone https://github.com/LeninKatta45/QuantumChat.git
     cd quantum-chat
     ```
 
@@ -38,7 +38,7 @@
 4. Set up environment variables for API keys and other configurations in a `.env` file:
 
     ```env
-    OPENAI_API_KEY=your_openai_api_key
+    GOOGLE_API_KEY=your_google_api_key
     AWS_ACCESS_KEY_ID=your_aws_access_key
     AWS_SECRET_ACCESS_KEY=your_aws_secret_key
     ```
