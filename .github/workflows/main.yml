@@ -4,8 +4,10 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+
+    env:
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}  # Reference the secret here
 
     steps:
     - uses: actions/checkout@v2
