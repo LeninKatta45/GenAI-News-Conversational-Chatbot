@@ -14,7 +14,7 @@ from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-api_key = os.getenv("API_KEY")
+google_api_key = os.getenv("GOOGLE_API_KEY")
 loader=[]
 app = FastAPI()
 
@@ -54,7 +54,7 @@ BULLET POINT SUMMARY:
 prompt = PromptTemplate(template=prompt_template, input_variables=["text"])
 
 llm = ChatGoogleGenerativeAI(
-    google_api_key=api_key,
+    google_api_key=google_api_key,
     model="gemini-pro",
     temperature=0.6,
     convert_system_message_to_human=True,

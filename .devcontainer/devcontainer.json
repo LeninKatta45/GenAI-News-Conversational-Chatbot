@@ -1,6 +1,5 @@
 {
-    "env": {
-      "API_KEY": "${{ secrets.API_KEY }}"
-    }
+  "env": {
+    "GOOGLE_API_KEY": "${{ secrets.GOOGLE_API_KEY }}"
+  }
 }
-  
