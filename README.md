@@ -38,7 +38,7 @@
 4. Set up environment variables for API keys and other configurations in a `.env` file:
 
     ```env
-    OPENAI_API_KEY=your_openai_api_key
+    GOOGLE_API_KEY=your_openai_api_key
     AWS_ACCESS_KEY_ID=your_aws_access_key
     AWS_SECRET_ACCESS_KEY=your_aws_secret_key
     ```
