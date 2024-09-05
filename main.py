@@ -54,7 +54,7 @@ BULLET POINT SUMMARY:
 prompt = PromptTemplate(template=prompt_template, input_variables=["text"])
 
 llm = ChatGoogleGenerativeAI(
-    google_api_key=os.environ["GOOGLE_API_KEY"],
+    google_api_key=api_key,
     model="gemini-pro",
     temperature=0.6,
     convert_system_message_to_human=True,
