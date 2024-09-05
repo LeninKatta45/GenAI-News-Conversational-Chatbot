@@ -18,7 +18,7 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/LeninKatta45/quantum-chat.git
+    git clone https://github.com/LeninKatta45/QuantumChat.git
     cd quantum-chat
     ```
 
