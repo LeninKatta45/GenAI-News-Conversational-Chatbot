@@ -14,7 +14,7 @@ from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-google_api_key = os.getenv("GOOGLE_API_KEY")
+google_api_key = os.environ.get("GOOGLE_API_KEY")
 loader=[]
 app = FastAPI()
 

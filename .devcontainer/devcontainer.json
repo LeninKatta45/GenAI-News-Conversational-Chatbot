@@ -1,5 +1,16 @@
 {
-  "env": {
-    "GOOGLE_API_KEY": "${{ secrets.GOOGLE_API_KEY }}"
+    "name": "QuantumChat",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python"
+        ]
+      }
+    },
+    "remoteEnv": {
+      "GOOGLE_API_KEY": "${secrets.GOOGLE_API_KEY}"
+    }
   }
-}
