@@ -1,6 +1,5 @@
 # QuantumChat
 [![Python application test with Github Actions](https://github.com/LeninKatta45/QuantumChat/actions/workflows/main.yml/badge.svg)](https://github.com/LeninKatta45/QuantumChat/actions/workflows/main.yml)
-
 ## Overview
 
 **Quantum Chat** is an AI-powered chatbot designed to provide accurate and real-time equity research responses. It leverages state-of-the-art models like **Retrieval-Augmented Generation (RAG)** and integrates advanced language models (like Google Gemini LLM) to offer contextual and precise answers for financial analysis and decision-making.
